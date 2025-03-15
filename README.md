@@ -24,8 +24,8 @@ pip install streamlit
 4. Se abrirá la calculadora en tu navegador automáticamente.  
 
 ### 🖥 Captura de Pantalla  
-_Agrega aquí una captura de pantalla de la aplicación funcionando._  
-
+![image](https://github.com/user-attachments/assets/d1935fd5-3dd8-4e71-8f17-d0a9367b0401)
+  
 ### 🏗 Tecnologías Utilizadas  
 - **Python**  
 - **Streamlit**  
