@@ -4,6 +4,9 @@ def main():
     # Funciones para las operaciones
     def sumar(a, b):
         return a + b
+    
+    def restar(a, b):
+        return a - b
 
     # Título de la app
     st.title("🧮 Calculadora Básica")
@@ -19,6 +22,9 @@ def main():
     resultado = None
     if operacion == "Suma":
         resultado = sumar(num1, num2)
+
+    elif operacion == "Resta":
+        resultado = restar(num1, num2)
     
     # Mostrar resultado
     if resultado is not None:
