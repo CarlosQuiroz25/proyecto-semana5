@@ -7,6 +7,9 @@ def main():
     
     def restar(a, b):
         return a - b
+    
+    def dividir(a, b):
+        return a / b
 
     # Título de la app
     st.title("🧮 Calculadora Básica")
@@ -16,7 +19,7 @@ def main():
     num2 = st.number_input("Ingrese el segundo número", value=0.0, step=0.1)
 
     # Selección de operación
-    operacion = st.selectbox("Seleccione una operación", ["Suma"])
+    operacion = st.selectbox("Seleccione una operación", ["Suma", "Resta", "Dividir"])
 
     # Cálculo usando funciones
     resultado = None
@@ -25,6 +28,9 @@ def main():
 
     elif operacion == "Resta":
         resultado = restar(num1, num2)
+
+    elif operacion == "Dividir":
+        resultado = dividir(num1, num2)
     
     # Mostrar resultado
     if resultado is not None:
