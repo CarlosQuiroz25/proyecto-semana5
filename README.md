@@ -13,6 +13,8 @@ Esta es una aplicación web simple desarrollada con **Streamlit**, que permite r
 
 Asegúrate de tener **Python 3.7+** y **Streamlit** instalado en tu sistema:
 
+## Instalación de los requerimientos
+
 ### Haz un nuevo entorno virtuar
 
 ```sh
