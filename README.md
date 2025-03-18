@@ -13,23 +13,25 @@ Esta es una aplicación web simple desarrollada con **Streamlit**, que permite r
 
 Asegúrate de tener **Python 3.7+** y **Streamlit** instalado en tu sistema:
 
-###Haz un nuevo entorno virtuar
+### Haz un nuevo entorno virtuar
 
 ```sh
 py -m venv nombre-venv
 
 ```
 
-###Activa tu entorno virtual
+### Activa tu entorno virtual
 
 ```sh
 cd .\nombre-venv
+
 .\Scripts\activate
+
 cd ..
 
 ```
 
-###Instala todo lo que requiere el proyect
+### Instala todo lo que requiere el proyect
 
 ```sh
 pip install -r requirements.txt
